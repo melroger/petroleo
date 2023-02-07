@@ -16,6 +16,7 @@ export const NavBar = () => {
                 <li> <a href='#'>Espejos</a> </li>
                 <li> <a href='#'>Colecciones</a> </li>
                 <li> <a href='#'>Mesas</a> </li>
+                <li> <a href='#'>Otros</a> </li>
             </ul>
         </nav>
         <CartWidget />
