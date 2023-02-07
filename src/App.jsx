@@ -14,7 +14,7 @@ function App() {
       <div className='hero'>
         <div className='wrapper'>
           <div className='hero-text'>
-           <ItemListContainer greeting= {"Diseños en Blanco y Negro, los colores son las connotaciones de nuestra subjetividad al apreciarlos"}/>
+           <ItemListContainer greeting= {"Diseños en Blanco y Negro - - - > los colores son las connotaciones de nuestra subjetividad al apreciarlos."}/>
            <img className='chair-hero' src='../src/assets/img/bauhaus-chair.jpg' />
           </div>
           <img className='hero-logo' src='../src/assets/img/hero-logo.svg' />
