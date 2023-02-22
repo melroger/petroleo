@@ -22,3 +22,21 @@ header .cart span{ margin-left: 10px; border: #FFF solid 1px; height: 25px; widt
 .hero .hero-text img{ max-width: 330px; }
 .hero .hero-text p{ padding-bottom: 20px; font-weight: 200; font-size: 16px; }
 .hero .hero-logo{ max-width: 58%; position: absolute; bottom: 0; }
+
+
+.catalog{}
+.catalog .catalog-header{}
+.catalog .catalog-header .categories{}
+.catalog .catalog-header .categories a{}
+.catalog .catalog-header .filters{}
+.catalog .products-list{ background: #FFF; color: black; }
+.catalog .products-list .product{}
+.catalog .products-list .product ul{}
+.catalog .products-list .product ul li{}
+.catalog .products-list .product ul li img{}
+.catalog .products-list .product ul li h3{}
+.catalog .products-list .product ul li p{}
+
+
+
+
