@@ -1,25 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
+
 
 export const NavBar = () => {
   return (
     <header>
       <div className='wrapper'>
         <span className='logo'>
-          <a href="#">PETROLEO</a>
+          <Link to={"/"}>PETROLEO</Link>
         </span>
         <nav>
             <ul>
-                <li> <a href='#'>Esculturas</a> </li>
-                <li> <a href='#'>Lámparas</a> </li>
-                <li> <a href='#'>Asientos</a> </li>
-                <li> <a href='#'>Espejos</a> </li>
-                <li> <a href='#'>Mesas</a> </li>
-                <li> <a href='#'>Colecciones</a> </li>
-                <li> <a href='#'>Otros</a> </li>
+                <li><Link to={'/categoria/esculturas'} >Esculturas</Link></li>
+                <li><Link to={'/categoria/asientos'} >Asientos</Link></li>
+                <li><Link to={'/categoria/espejos'} >Espejos</Link></li>
             </ul>
         </nav>
-        <CartWidget />
+        <Link to={"/cart"}><CartWidget /></Link>
+        
       </div>
     </header>
 
